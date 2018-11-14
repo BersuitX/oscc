@@ -1,0 +1,3 @@
+[submodule "testc"]
+	path = testc
+	url = git@github.com:BersuitX/oscc.git
