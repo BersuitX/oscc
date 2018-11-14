@@ -1,2 +1,2 @@
 # oscc
-CC
+CC es un proyecto de prueba
