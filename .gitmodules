@@ -1,0 +1,3 @@
+[submodule "nimdaym"]
+	path = nimdaym
+	url = https://github.com/phpmyadmin/phpmyadmin.git
