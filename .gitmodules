@@ -1,3 +1,6 @@
 [submodule "nimdaym"]
 	path = nimdaym
 	url = https://github.com/phpmyadmin/phpmyadmin.git
+[submodule "Servicios"]
+	path = Servicios
+	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
