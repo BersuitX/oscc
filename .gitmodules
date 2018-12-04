@@ -1,0 +1,6 @@
+[submodule "Servicios"]
+	path = Servicios
+	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
+[submodule "MICLARO-BACK"]
+	path = MICLARO-BACK
+	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
