@@ -7,3 +7,6 @@
 [submodule "ServiciosAPI"]
 	path = ServiciosAPI
 	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
+[submodule "ref"]
+	path = ref
+	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
