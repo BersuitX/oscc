@@ -4,3 +4,6 @@
 [submodule "MICLARO-BACK"]
 	path = MICLARO-BACK
 	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
+[submodule "ServiciosAPI"]
+	path = ServiciosAPI
+	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
