@@ -12,7 +12,7 @@ $connection = @fsockopen(trim($host), trim($port), $errno, $errstr, 60);
   echo trim($host).":".trim($port)." is open\n";
   fclose($connection);
  } else {
-  echo trim($host).":".trim($port)." Status: ".$errstr;
+  echo trim($host).":".trim($port)." Status: ".$errstr."\n";
  }
 
 }
