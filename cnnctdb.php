@@ -1,7 +1,9 @@
 <?php
-if(@mysqli_connect('172.30.46.34:3306', 'clarotestusr', 'K14r073zTP4z2', 'ClaroTest')) {
- echo "Connection succesfully";
+$dbh = @mysqli_connect($_ENV['MICLAROAPP_MYSQL_SERVICE_HOST'], 'clarotestusr', 'pQxg58*7', 'ClaroTest');
+if($dbh) {
+ echo "Connection succesfully\n";
 } else {
- echo "Connection failed";
+ echo "Connection failed\n";
 }
+mysqli_close($dbh);
 ?>
