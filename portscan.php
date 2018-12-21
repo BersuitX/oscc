@@ -7,7 +7,7 @@ $addr=file('legados.txt');
 foreach($addr as $ip) {
 list($host, $port)=explode(":",$ip);
 
-$connection = @fsockopen(trim($host), trim($port), $errno, $errstr, 60);
+$connection = @fsockopen(trim($host), trim($port), $errno, $errstr, 10);
  if(is_resource($connection)) {
   echo trim($host).":".trim($port)." is open\n";
   fclose($connection);
