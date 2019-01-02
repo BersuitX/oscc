@@ -8,7 +8,7 @@ $services=file('ips_legados.txt');
 foreach($addr as $ip) {
 list($host, $port)=explode(":",$ip);
 
-$connection = @fsockopen(trim($host), trim($port), $errno, $errstr, 10);
+$connection = @fsockopen(trim($host), trim($port), $errno, $errstr, 6);
  if(is_resource($connection)) {
   echo trim($host).":".trim($port)." is open\n";
   fclose($connection);
