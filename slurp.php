@@ -11,7 +11,7 @@ foreach($config['servicios'] as $method => $servicio) {
  $ci=curl_init();
  curl_setopt($ci, CURLOPT_URL, $servicio);
  curl_setopt($ci, CURLOPT_POST, 1);
- //curl_setopt($ci, CURLOPT);
+ curl_setopt($ci, CURLOPT_NOBODY, 1);
  curl_setopt($ci, CURLOPT_RETURNTRANSFER, 0);
  curl_exec($ci);
  $curlInfo=curl_getinfo($ci);
