@@ -12,12 +12,13 @@ $connection = @fsockopen(trim($host), trim($port), $errno, $errstr, 6);
  if(is_resource($connection)) {
   echo trim($host).":".trim($port)." is open\n";
   fclose($connection);
- } else {
+ }
+ /*else {
   echo trim($host).":".trim($port)." Status: ".$errstr."\n";
   foreach($services as $url) { 
    print_r(preg_match("/.*trim($host).*/", $url, $match));
   }
  }
-
+*/
 }
 ?>
