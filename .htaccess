@@ -1,3 +1,11 @@
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule "." "-" [F]
+
+RewriteCond %{HTTP_REFERER} ^$
+RewriteCond %{REQUEST_URI} ^/(.*)(\.js|\.css|\.gif|\.png|\.jp*g|\.woff*)$ [NC]
+RewriteRule "." "-" [F]
+
+RewriteCond %{REQUEST_URI} (\.git|\.*history)
 RewriteRule "." "-" [F]
