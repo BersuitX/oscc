@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+</soap:Header>
+<soapenv:Body>
+<v1:retrievePlan xmlns:v1="http://www.americamovil.com/schema/namespace/ServiceManagement/v1">
+<LineOfBusiness>3</LineOfBusiness>
+<AccountId>3108837465</AccountId>
+</v1:retrievePlan>
+</soapenv:Body>
+</soapenv:Envelope>
