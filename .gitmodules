@@ -1,5 +1,5 @@
 [submodule "curl-wigi-m3"]
-	path = M3
-	path = M3QA
+	path = ./M3
+	path = ./M3QA
 	url = https://github.com/jsngonzalez/curl-wigi-m3
 	branch = master
