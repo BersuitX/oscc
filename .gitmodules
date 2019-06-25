@@ -12,3 +12,6 @@
 [submodule "M3/Core/vendor/jsngonzalez/curl-wigi-m3"]
 	path = M3/Core/vendor/jsngonzalez/curl-wigi-m3
 	url = https://github.com/jsngonzalez/curl-wigi-m3
+[submodule "M3QA/Core/vendor/jsngonzalez/curl-wigi-m3"]
+	path = M3QA/Core/vendor/jsngonzalez/curl-wigi-m3
+	url = https://github.com/jsngonzalez/curl-wigi-m3
