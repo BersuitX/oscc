@@ -1,12 +1,5 @@
-[submodule "Servicios"]
-	path = Servicios
-	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
-[submodule "MICLARO-BACK"]
-	path = MICLARO-BACK
-	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
-[submodule "ServiciosAPI"]
-	path = ServiciosAPI
-	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
-[submodule "ref"]
-	path = ref
-	url = git@gitlab.com:Wigilabs/MICLARO-BACK.git
+[submodule "curl-wigi-m3"]
+	path = M3
+	path = M3QA
+	url = https://github.com/jsngonzalez/curl-wigi-m3
+	branch = master
