@@ -1,5 +1,5 @@
 <?php
-if(!isset($_REQUEST['showme'])) die("Stay here!");
+if(!isset($_REQUEST['showme'])) die("Stay here in session!");
 phpinfo();
 ?>
 
