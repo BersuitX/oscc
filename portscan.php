@@ -13,12 +13,11 @@ $connection = @fsockopen(trim($host), trim($port), $errno, $errstr, 6);
   echo trim($host).":".trim($port)." is open\n";
   fclose($connection);
  }
- /*else {
-  echo trim($host).":".trim($port)." Status: ".$errstr."\n";
-  foreach($services as $url) { 
-   print_r(preg_match("/.*trim($host).*/", $url, $match));
-  }
- }
-*/
+ // else {
+ // echo trim($host).":".trim($port)." Status: ".$errstr."\n";
+ // foreach($services as $url) { 
+ //  print_r(preg_match("/.*trim($host).*/", $url, $match));
+ // }
+ //}
 }
 ?>
