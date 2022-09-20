@@ -41,5 +41,6 @@ done
 
 #curl -v -X POST -H "Content-type: text/xml" -H "SOAPAction:Claro.SelfCareManagement.Services.Entities.Contracts/SelfCareManagementService/loginUsuario" ${CURL_OPTS} --data @login.xml http://190.85.248.31/SelfCare/SelfCareManagementService.svc?wsdl
 
+# The test line
 
 
